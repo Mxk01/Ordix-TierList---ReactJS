@@ -5,15 +5,15 @@ import Category from './Category';
 import Board from './Board';
 
 
-function Jujutsu() {
+function TokyoRevengers() {
   // EASY SOLUTION MAKES SECTIONS FOR OTHER ROUTES E.G NANATSU NO TAIZAI,ETC   
   return (
         <div>
              <div className="section" /* draggable="true" */>
-    <Category categoryName="Gojo level" className="category"/>
-     <CategoryInput storageName={"fourth"}  initialValue={"Gojo Level"} /> 
+    <Category categoryName="Plus Ultra" className="category"/>
+     <CategoryInput storageName={"sixteen"}  initialValue={"Toman"} /> 
       <Board
-       id="board-4"
+       id="board-1"
        className="board"
 
       >
@@ -25,11 +25,11 @@ function Jujutsu() {
        
 
           <div className="section">
-    <Category categoryName="Sukuna Fingers" className="category"/>
+    <Category categoryName="Villain" className="category"/>
     
-    <CategoryInput storageName={"fifth"}  initialValue={"Sukuna Fingers"} /> 
+    <CategoryInput storageName={"seventeen"}  initialValue={"Draken Fans"} /> 
       <Board
-       id="board-5"
+       id="board-3"
        className="board"
 
       >
@@ -44,9 +44,9 @@ function Jujutsu() {
 
           <div className="section">
     <Category categoryName="Your characters" className="category"/>
-    <CategoryInput storageName={"sixth"}  initialValue={"Sorcerers"} /> 
+    <CategoryInput storageName={"eighteen"}  initialValue={"Takemitchy suck"} /> 
       <Board
-       id="board-6"
+       id="board-4"
        className="board"
 
       >
@@ -56,35 +56,35 @@ function Jujutsu() {
           */}
        
              <Card  
+        id="card-1" 
+        className="card"
+        draggable="true"
+        url={"https://r7s4k2g2.stackpathcdn.com/wp-content/uploads/2021/02/Tokyo-Revengers-Anime-Announces-More-Cast-Debut-Date-740x600.jpg"}>
+         
+         </Card>
+
+         
+         <Card  
+        id="card-2" 
+        className="card"
+        draggable="true"
+        url={"https://i.ytimg.com/vi/gZrvLnxgLVI/maxresdefault.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-3" 
+        className="card"
+        draggable="true"
+        url={"https://i.ytimg.com/vi/FD9vTPINl6Y/maxresdefault.jpg"}>
+         
+         </Card>
+
+         <Card  
         id="card-4" 
         className="card"
         draggable="true"
-        url={"https://1.bp.blogspot.com/-0cisGaNLncM/YDfjnAEws8I/AAAAAAAAAQE/X_8Rl1QQTdg9kq2dJBCjCPpL6OcGCSRDQCLcBGAsYHQ/s1280/Black%2BFlash%2B%255B00h15m14s%255D.png"}>
-         
-         </Card>
-
-         
-         <Card  
-        id="card-5" 
-        className="card"
-        draggable="true"
-        url={"https://i.pinimg.com/originals/1d/53/e9/1d53e9819aa7793904dd5c3f14b05e12.gif"}>
-         
-         </Card>
-
-         <Card  
-        id="card-6" 
-        className="card"
-        draggable="true"
-        url={"https://i.pinimg.com/originals/97/2b/d4/972bd4090f293e83e3ca9900b1efc2c9.jpg"}>
-         
-         </Card>
-
-         <Card  
-        id="card-7" 
-        className="card"
-        draggable="true"
-        url={"https://i.pinimg.com/originals/5c/37/68/5c3768388305bf480f93b7511027ac3b.jpg"}>
+        url={"https://somoskudasai.com/wp-content/uploads/2021/04/03_02.jpg"}>
          
          </Card>
          
@@ -96,4 +96,4 @@ function Jujutsu() {
     )
 }
 
-export default Jujutsu; 
+export default TokyoRevengers

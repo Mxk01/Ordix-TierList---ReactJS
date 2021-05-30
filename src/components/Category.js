@@ -50,7 +50,7 @@ function Category({categoryName}) {
        break;
 
        default:
-        bgColor = '#2ecc71' 
+        bgColor = '#78e08f' 
         break;
     }
     

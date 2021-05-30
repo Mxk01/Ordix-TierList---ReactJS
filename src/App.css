@@ -13,8 +13,8 @@ h1 {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   object-fit: cover;
 }
 .App {
@@ -102,4 +102,17 @@ input {
 input {
   background-color: #313131;
   height: 20vh;
+}
+
+#credits {
+  color: white;
+  margin-top: 50px;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#credits > a {
+  color: rgb(106, 251, 220);
 }

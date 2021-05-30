@@ -5,7 +5,7 @@ import Category from './Category';
 import Board from './Board';
 
 
-function Sections() {
+function MyHero() {
   // EASY SOLUTION MAKES SECTIONS FOR OTHER ROUTES E.G NANATSU NO TAIZAI,ETC   
   return (
         <div>
@@ -96,4 +96,4 @@ function Sections() {
     )
 }
 
-export default Sections
+export default MyHero
