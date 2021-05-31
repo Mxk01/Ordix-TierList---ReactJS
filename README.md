@@ -1,3 +1,8 @@
+#Ordix Tier List
+
+![TierListOrdix](https://user-images.githubusercontent.com/61979889/120181478-cb8c3f80-c215-11eb-87ec-426210d85194.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
