@@ -1,6 +1,6 @@
 #Ordix Tier List
 
-![TierListOrdix](https://user-images.githubusercontent.com/61979889/120181478-cb8c3f80-c215-11eb-87ec-426210d85194.PNG)
+![TierListOrdix](https://user-images.githubusercontent.com/61979889/120181733-245bd800-c216-11eb-8fbb-ee2a606eb685.PNG)
 
 
 # Getting Started with Create React App
