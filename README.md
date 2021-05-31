@@ -1,4 +1,4 @@
-#Ordix Tier List
+### `Ordix Tier List`
 
 ![TierListOrdix](https://user-images.githubusercontent.com/61979889/120181733-245bd800-c216-11eb-8fbb-ee2a606eb685.PNG)
 
