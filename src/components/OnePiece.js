@@ -87,6 +87,39 @@ function OnePiece() {
         url={"https://media.comicbook.com/2018/10/sanji-one-piece-1139192-1280x0.jpeg"}>
          
          </Card>
+
+         <Card  
+        id="card-5" 
+        className="card"
+        draggable="true"
+        url={"https://comicvine.gamespot.com/a/uploads/scale_medium/11117/111178336/5858927-one.piece.full.1358183.jpg"}>
+         
+         </Card>
+
+         
+         <Card  
+        id="card-6" 
+        className="card"
+        draggable="true"
+        url={"https://media.comicbook.com/2019/06/3uvmt2n-1173747-1280x0.jpeg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-7" 
+        className="card"
+        draggable="true"
+        url={"https://pbs.twimg.com/media/EfkfF70WsAMWCNG.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-8" 
+        className="card"
+        draggable="true"
+        url={"https://practicaltyping.com/wp-content/uploads/2019/04/ace.jpg"}>
+         
+         </Card>
          
          
           </Board>

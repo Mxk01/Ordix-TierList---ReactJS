@@ -13,13 +13,17 @@
      
         // setting the id for the card to be retrieved in Board.js and searched via id on the DOM and appended to drop zone
       e.dataTransfer.setData('card_id',id);
- 
+      localStorage.setItem("card_id", id);
+      console.log(localStorage.getItem('card_id'))
+
 
     }
 
     const cardDraggedOver = (e) => { e.stopPropagation()};
      return (
-         <div style={{ 
+         <div 
+         className="image__bg"
+         style={{ 
            background: `url(${url})`,
            backgroundPosition: 'center',
            backgroundSize: 'cover',

@@ -2,9 +2,11 @@ import React,{useState,useEffect} from 'react'
 
 function CategoryInput({storageName,initialValue}) {
     let [input,setInput] = useState(initialValue);
-    console.log(storageName,initialValue)
       useEffect(()=>{
+
+        // getting item from localstorage 
       let item = localStorage.getItem(storageName);
+        // changing input value to item  
       setInput(item);
       },[])
 
@@ -13,7 +15,9 @@ function CategoryInput({storageName,initialValue}) {
      let inputChange = (e) => {
     //  e.preventDefault() // prevent event from happening again
     let target = e.target.value;
-      setInput(target);
+    // changing input value to what we typed  
+    setInput(target);
+    // storing the name of the item that we want and content of it  (input value)
      localStorage.setItem(storageName,target);
    }
 

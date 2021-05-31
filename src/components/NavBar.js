@@ -12,8 +12,7 @@ function NavBar() {
                 <Link to="/Bleach">Bleach</Link>
                 <Link to="/one-piece">One Piece</Link>
                 <Link to="/tokyo-revengers">Tokyo Revengers</Link>
-                <Link to="/">Homepage</Link>
-                
+                 
             </nav>
         </div>
     )

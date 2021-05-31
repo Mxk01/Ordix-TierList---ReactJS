@@ -1,4 +1,6 @@
 import { useState,useEffect } from 'react';
+import { useHistory, useLocation } from 'react-router-dom'
+
 import './App.css';
 import NavBar  from'./components/NavBar.js';
 import MyHero from './components/MyHero';
@@ -13,21 +15,26 @@ import {
   Route
 } from "react-router-dom";
 import TokyoRevengers from './components/TokyoRevengers';
-
+ 
 function App() {
+  let location = useLocation(); 
+  let history = useHistory(); 
+  useEffect(()=>{
+
+    let {pathname} = location; 
+    history.push(pathname);
+
+  },[]);
  
   return (
-    <Router> 
-    <div className="App">
+     <div className="App">
       
       <NavBar/>
     
 
     <main className="flexbox">
     <Switch>
-          <Route path="/">
-          <div id="credits">Website icon made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from  <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
-          </Route>
+        
           <Route path="/my-hero-academia">
           <MyHero/>
           </Route>
@@ -59,8 +66,7 @@ function App() {
       
     </main>
     </div>
-    </Router>
-  );
+   );
 }
 
 export default App;

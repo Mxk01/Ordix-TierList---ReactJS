@@ -44,7 +44,7 @@ function Naruto() {
 
           <div className="section">
     <Category categoryName="Your characters" className="category"/>
-    <CategoryInput storageName={"ninth"}  initialValue={"Jounins"} /> 
+    <CategoryInput storageName={"ninth"}  initialValue={"Default"} /> 
       <Board
        id="board-4"
        className="board"
@@ -85,6 +85,72 @@ function Naruto() {
         className="card"
         draggable="true"
         url={"https://i.ytimg.com/vi/tMkURmaHKgs/maxresdefault.jpg"}>
+         
+         </Card>
+         
+         <Card  
+        id="card-5" 
+        className="card"
+        draggable="true"
+        url={"https://www.nawpic.com/media/2020/itachi-nawpic-2.jpg"}>
+         
+         </Card>
+
+         
+         <Card  
+        id="card-6" 
+        className="card"
+        draggable="true"
+        url={"https://i.ytimg.com/vi/GV2wzNQ0JnQ/maxresdefault.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-7" 
+        className="card"
+        draggable="true"
+        url={"https://i.ytimg.com/vi/esJOOQG42r0/maxresdefault.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-8" 
+        className="card"
+        draggable="true"
+        url={"https://pm1.narvii.com/6515/5fdf64ac3d3cb8e4a52859b31a360d397a2df33b_hq.jpg"}>
+         
+         </Card>
+         
+         <Card  
+        id="card-9" 
+        className="card"
+        draggable="true"
+        url={"https://pbs.twimg.com/profile_images/3289666294/889432ee3df0a75228b6a46bea73ff99.jpeg"}>
+         
+         </Card>
+
+         
+         <Card  
+        id="card-10" 
+        className="card"
+        draggable="true"
+        url={"https://i.pinimg.com/originals/ae/51/78/ae51783bf29b4a42e5b5e1c33f7090d2.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-11" 
+        className="card"
+        draggable="true"
+        url={"https://i.pinimg.com/474x/a8/1c/5f/a81c5fc3f6c2a1c43733f5bd4d5bffd7.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-12" 
+        className="card"
+        draggable="true"
+        url={"https://pbs.twimg.com/profile_images/631203976835407872/QCDoW3w6.jpg"}>
          
          </Card>
          

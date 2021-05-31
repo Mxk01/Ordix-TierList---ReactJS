@@ -9,30 +9,20 @@ function Category({categoryName}) {
         // REMEMBER! ! ! shows error useState can't be called inside a callback,can be called inside react
         // functional component
         
-        let categoryArr = [];
-        categoryArr.push(input);
-        console.log(categoryArr)
-     
+      
+        // display updated values from localstorage so each time user access websites he will see the changes 
         let result = localStorage.getItem('category');
-         
+         // set the input to updated value from storage
          setInput(result)
-        // setInput(input)
-        /*
-         
-         setTimeout( () => {  
-         document.removeEventListener('change',setInput(categoryName));
-         },400);
-        */   
+      
     })
      
     let changeInput = (e) => {
    
         e.preventDefault() // prevent event from happening again
         let target = e.target.value;
-        let categoryArr = []; 
-
-        // categoryArr.push(target);
-        // console.log(categoryArr);
+ 
+  
         localStorage.setItem('category', target);
         setInput(target);
         
@@ -63,7 +53,6 @@ function Category({categoryName}) {
             color:'white',
             padding:'1rem'
             }}>
-            {/* <input value={ input } onChange={(e)=>{ changeInput(e)}}/> */}
          </div>
     )
 }

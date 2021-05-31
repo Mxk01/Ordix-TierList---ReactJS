@@ -87,6 +87,22 @@ function Jujutsu() {
         url={"https://i.pinimg.com/originals/5c/37/68/5c3768388305bf480f93b7511027ac3b.jpg"}>
          
          </Card>
+
+         <Card  
+        id="card-8" 
+        className="card"
+        draggable="true"
+        url={"https://i.pinimg.com/474x/3f/71/59/3f7159db35d2989e231b161adf5635b9.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-9" 
+        className="card"
+        draggable="true"
+        url={"https://i.pinimg.com/originals/9b/9b/72/9b9b72550f979e976f17da44ebde25bf.jpg"}>
+         
+         </Card>
          
          
           </Board>

@@ -84,7 +84,40 @@ function Bleach() {
         id="card-4" 
         className="card"
         draggable="true"
-        url={"https://practicaltyping.com/wp-content/uploads/2020/05/renji.jpg"}>
+        url={"https://d.wattpad.com/story_parts/218095957/images/1430fc2a67f64a81.jpg"}>
+         
+         </Card>
+         
+         <Card  
+        id="card-5" 
+        className="card"
+        draggable="true"
+        url={"https://i.pinimg.com/originals/10/9b/15/109b15239f389292ad0031c5f63cb859.jpg"}>
+         
+         </Card>
+
+         
+         <Card  
+        id="card-6" 
+        className="card"
+        draggable="true"
+        url={"https://i.quotev.com/img/q/u/14/7/8/Pu_i.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-7" 
+        className="card"
+        draggable="true"
+        url={"https://www.giantbomb.com/a/uploads/scale_medium/0/5756/221267-shunsuikyoraku.jpg"}>
+         
+         </Card>
+
+         <Card  
+        id="card-8" 
+        className="card"
+        draggable="true"
+        url={"https://i.pinimg.com/originals/04/95/88/0495888861b36cee0d08529e0a82f836.jpg"}>
          
          </Card>
          

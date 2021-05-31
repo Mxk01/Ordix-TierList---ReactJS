@@ -44,6 +44,7 @@ img {
   background-color: #313131;
   padding: 15px;
   margin: 1rem;
+  overflow: hidden;
 }
 
 .flexbox .board .card {
@@ -53,11 +54,16 @@ img {
   font-size: x-small;
 }
 .card {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   object-fit: cover;
   border: 0;
   margin: 5px;
+  /* image-rendering: auto; */
+  image-rendering: crisp-edges;
+  filter: saturate(1.8);
+
+  /* image-rendering: pixelated; */
 }
 
 .board {
@@ -115,4 +121,12 @@ input {
 }
 #credits > a {
   color: rgb(106, 251, 220);
+}
+
+@media only screen and (max-width: 862px) {
+  .card {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
 }
